@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F079485E11536364FDA206AE /* Pods_Lession6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA801EB1618AE243491FC80C /* Pods_Lession6.framework */; };
 		FEF0F02B206DD87800C16640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0F02A206DD87800C16640 /* AppDelegate.swift */; };
 		FEF0F02D206DD87800C16640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0F02C206DD87800C16640 /* ViewController.swift */; };
 		FEF0F030206DD87800C16640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF0F02E206DD87800C16640 /* Main.storyboard */; };
 		FEF0F032206DD87800C16640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF0F031206DD87800C16640 /* Assets.xcassets */; };
 		FEF0F035206DD87800C16640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF0F033206DD87800C16640 /* LaunchScreen.storyboard */; };
 		FEF0F03D206E30D400C16640 /* passingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0F03C206E30D400C16640 /* passingViewController.swift */; };
+		FEFC8471206E93540007CAB9 /* alamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC8470206E93530007CAB9 /* alamofireViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AF3A452D2C54DFE09D58F49 /* Pods-Lession6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lession6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lession6/Pods-Lession6.debug.xcconfig"; sourceTree = "<group>"; };
+		AA801EB1618AE243491FC80C /* Pods_Lession6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lession6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAC812D93C7E6987A8CED0 /* Pods-Lession6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lession6.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lession6/Pods-Lession6.release.xcconfig"; sourceTree = "<group>"; };
 		FEF0F027206DD87800C16640 /* Lession6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lession6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF0F02A206DD87800C16640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF0F02C206DD87800C16640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		FEF0F034206DD87800C16640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF0F036206DD87800C16640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF0F03C206E30D400C16640 /* passingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passingViewController.swift; sourceTree = "<group>"; };
+		FEFC8470206E93530007CAB9 /* alamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alamofireViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F079485E11536364FDA206AE /* Pods_Lession6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F7E37B49754F8C62417965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA801EB1618AE243491FC80C /* Pods_Lession6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A6BE381C277DC8F7A321E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF3A452D2C54DFE09D58F49 /* Pods-Lession6.debug.xcconfig */,
+				ADDAC812D93C7E6987A8CED0 /* Pods-Lession6.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FEF0F01E206DD87800C16640 = {
 			isa = PBXGroup;
 			children = (
 				FEF0F029206DD87800C16640 /* Lession6 */,
 				FEF0F028206DD87800C16640 /* Products */,
+				D1A6BE381C277DC8F7A321E6 /* Pods */,
+				20F7E37B49754F8C62417965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +84,7 @@
 			children = (
 				FEF0F02A206DD87800C16640 /* AppDelegate.swift */,
 				FEF0F02C206DD87800C16640 /* ViewController.swift */,
+				FEFC8470206E93530007CAB9 /* alamofireViewController.swift */,
 				FEF0F02E206DD87800C16640 /* Main.storyboard */,
 				FEF0F03C206E30D400C16640 /* passingViewController.swift */,
 				FEF0F031206DD87800C16640 /* Assets.xcassets */,
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEF0F039206DD87800C16640 /* Build configuration list for PBXNativeTarget "Lession6" */;
 			buildPhases = (
+				AE469195C1DC1349E6747614 /* [CP] Check Pods Manifest.lock */,
 				FEF0F023206DD87800C16640 /* Sources */,
 				FEF0F024206DD87800C16640 /* Frameworks */,
 				FEF0F025206DD87800C16640 /* Resources */,
+				70563FCDFCD9832A25128DE5 /* [CP] Embed Pods Frameworks */,
+				1BDBE8E101136F1765922906 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BDBE8E101136F1765922906 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lession6/Pods-Lession6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70563FCDFCD9832A25128DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lession6/Pods-Lession6-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lession6/Pods-Lession6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE469195C1DC1349E6747614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lession6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEF0F023206DD87800C16640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +228,7 @@
 				FEF0F03D206E30D400C16640 /* passingViewController.swift in Sources */,
 				FEF0F02D206DD87800C16640 /* ViewController.swift in Sources */,
 				FEF0F02B206DD87800C16640 /* AppDelegate.swift in Sources */,
+				FEFC8471206E93540007CAB9 /* alamofireViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +363,7 @@
 		};
 		FEF0F03A206DD87800C16640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF3A452D2C54DFE09D58F49 /* Pods-Lession6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +379,7 @@
 		};
 		FEF0F03B206DD87800C16640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDAC812D93C7E6987A8CED0 /* Pods-Lession6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
